@@ -1,0 +1,12 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "s3-processor"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-ahl4sx6nrxq4"
+s3_prefix = "s3-processor"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+disable_rollback = true
+image_repositories = []
